@@ -1,0 +1,18 @@
+.number-button {
+  display: inline-block;
+  padding: 0;
+  line-height: 2.5rem;
+  width: 2.75rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0.5rem 0 0;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #bbb;
+  border-radius: 0.4rem;
+}
+
+.unavailable {
+  opacity: 0.25;
+  transition: 0.2s ease;
+}

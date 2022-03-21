@@ -1,0 +1,15 @@
+.cage-totals {
+  span {
+    margin-right: 1rem;
+  }
+  th,
+  td {
+    padding: 0.25rem;
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+  th {
+    text-align: left;
+  }
+}
