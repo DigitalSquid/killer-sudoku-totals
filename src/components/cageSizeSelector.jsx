@@ -3,20 +3,21 @@ export const CageSizeSelector = ({ cageSizeSelection, cageSize }) => {
     <section>
       <h2>Cage size:</h2>
       {[...Array(8)].map((_, value) => {
-        let buttonState =
+        const cageSizeValue = value + 2;
+        const buttonState =
           cageSize !== null
-            ? value === parseInt(cageSize)
+            ? cageSizeValue === parseInt(cageSize)
               ? 'selected'
               : 'unavailable'
             : '';
         return (
           <button
-            key={value}
+            key={cageSizeValue}
             className={`number-button ${buttonState}`}
-            value={value}
+            value={cageSizeValue}
             onClick={cageSizeSelection}
           >
-            {value + 2}
+            {cageSizeValue}
           </button>
         );
       })}
