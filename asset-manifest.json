@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/killer-sudoku-totals/static/css/main.f6322fb5.css",
-    "main.js": "/killer-sudoku-totals/static/js/main.2a6a3681.js",
+    "main.css": "/killer-sudoku-totals/static/css/main.d88ee420.css",
+    "main.js": "/killer-sudoku-totals/static/js/main.90a50655.js",
     "static/js/787.7e8f74bd.chunk.js": "/killer-sudoku-totals/static/js/787.7e8f74bd.chunk.js",
     "index.html": "/killer-sudoku-totals/index.html",
-    "main.f6322fb5.css.map": "/killer-sudoku-totals/static/css/main.f6322fb5.css.map",
-    "main.2a6a3681.js.map": "/killer-sudoku-totals/static/js/main.2a6a3681.js.map",
+    "main.d88ee420.css.map": "/killer-sudoku-totals/static/css/main.d88ee420.css.map",
+    "main.90a50655.js.map": "/killer-sudoku-totals/static/js/main.90a50655.js.map",
     "787.7e8f74bd.chunk.js.map": "/killer-sudoku-totals/static/js/787.7e8f74bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6322fb5.css",
-    "static/js/main.2a6a3681.js"
+    "static/css/main.d88ee420.css",
+    "static/js/main.90a50655.js"
   ]
 }
