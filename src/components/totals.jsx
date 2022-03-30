@@ -14,20 +14,23 @@ export const Totals = ({ cageSize, numberState }) => {
   return selectedCageSize ? (
     <div>
       <h2>{cageSize} Square Cages</h2>
-      <table className='cage-totals'>
-        <thead>
-          <tr>
-            <th>Total</th>
-            <th>Combinations</th>
-          </tr>
-        </thead>
-        <tbody>
+
+      <div className='cage-totals'>
+        <div className='flex-row'>
+          <div className='total'>
+            <strong>Total</strong>
+          </div>
+          <div className='combinations'>
+            <strong>Combinations</strong>
+          </div>
+        </div>
+        <div>
           {Object.entries(selectedCageSize).map(
             ([cageTotal, cageValues], index) => {
               return (
-                <tr key={index}>
-                  <td>{cageTotal}</td>
-                  <td>
+                <div className='flex-row' key={index}>
+                  <div className='total'>{cageTotal}</div>
+                  <div className='combinations'>
                     {cageValues.map((value, index) => {
                       let combinationState = '';
 
@@ -47,13 +50,13 @@ export const Totals = ({ cageSize, numberState }) => {
                         </span>
                       );
                     })}
-                  </td>
-                </tr>
+                  </div>
+                </div>
               );
             }
           )}
-        </tbody>
-      </table>
+        </div>
+      </div>
     </div>
   ) : (
     ''

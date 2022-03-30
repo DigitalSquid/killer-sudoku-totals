@@ -1,15 +1,21 @@
 .cage-totals {
-  span {
-    margin-right: 1rem;
-  }
-  th,
-  td {
-    padding: 0.25rem;
-    &:first-of-type {
-      padding-left: 0;
+  .flex-row {
+    display: flex;
+    margin-top: 0.5rem;
+    .total {
+      width: 3rem;
+      flex: 0 0 3rem;
     }
-  }
-  th {
-    text-align: left;
+    .combinations {
+      flex: 1 1 auto;
+    }
+    span {
+      margin-right: 1rem;
+      padding-top: 0.1rem;
+      display: inline-block;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
   }
 }
