@@ -7,7 +7,7 @@ export const Totals = ({ cageSize, numberState }) => {
   const selectedCageSize = cageCombinations[cageSize];
 
   numberState.forEach((state, index) => {
-    if (state === 'unavailable') {
+    if (!state) {
       unavailableNumbers.push(index + 1);
     }
   });
@@ -59,6 +59,6 @@ export const Totals = ({ cageSize, numberState }) => {
       </div>
     </div>
   ) : (
-    ''
+    <></>
   );
 };
